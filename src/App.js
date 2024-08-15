@@ -1,7 +1,5 @@
 import MainPage from "./components/main_page/MainPage";
 
-import MenuView from "./components/menu_bar/MenuView";
-
 import ServicePage from "./components/product_page/Product";
 import AboutPage from "./components/about_page/AboutPage";
 import TestimonialsPage from "./components/testimonials_page/TestimonialsPage";
