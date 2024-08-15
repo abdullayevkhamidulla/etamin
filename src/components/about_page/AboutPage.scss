@@ -1,0 +1,97 @@
+.AboutPage {
+  width: 100%;
+  height: auto;
+  
+  justify-content: center;
+  
+ 
+  background-color: #27173A;
+  .About-text{
+    text-align: center;
+    color: white;
+    p{
+      font-weight: 700;
+      font-size: 22px;
+      text-shadow: -2px 0px 10px rgb(178, 98, 231);
+      
+    }
+    h1{
+      font-weight: 400;
+      font-size: 46px;
+      margin-top: 50px;
+      text-shadow: -2px 0px 10px rgb(179, 84, 246);
+      
+    }
+  }
+
+  .About-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 60px;
+    color: white;
+    .About-wrapper-text{
+      width: 591px;
+      height: auto;
+      h1{
+        font-size: 40px;
+      }
+      p{
+        margin-top: 20px;
+        font-size: 17px;
+      }
+    }
+    
+  }
+  @media (max-width: 768px){
+  .About-text{
+    text-align: center;
+    color: white;
+    p{
+      font-weight: 700;
+      font-size: 17px;
+      text-shadow: -2px 0px 10px rgb(178, 98, 231);
+      
+    }
+    h1{
+      font-weight: 400;
+      font-size: 36px;
+      margin-top: 50px;
+      text-shadow: -2px 0px 10px rgb(179, 84, 246);
+      
+    }
+  }
+  .About-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 60px;
+    color: white;
+    img{
+      width: 553px;
+      height: 400px;
+    }
+    .About-wrapper-text{
+      width: 591px;
+      height: auto;
+      padding: 20px;
+      h1{
+        font-size: 30px;
+      }
+      p{
+        margin-top: 20px;
+        font-size: 15px;
+      }
+    }
+    
+  }
+  }
+}
